@@ -18,7 +18,7 @@ affiliations:
  - name: Montreal Heart Institute, University of Montréal, Montréal, Canada
    index: 2
 date: 26 March 2021
-bibliography: paper.bib
+bibliography: preprint.bib
 ---
 
 # Summary
