@@ -54,16 +54,22 @@ Citations to entries in `preprint.bib` should be in
 format.
 
 For a quick reference, the following citation commands can be used:
-- `@author:2021`  ->  "Author et al. (2021)"
-- `[@author:2021]` -> "(Author et al., 2021)"
-- `[@author1:2021; @author2:2001]` -> "(Author1 et al., 2021; Author2 et al., 2021)"
+* `@author:2021`  ->  "Author et al. (2021)"
+* `[@author:2021]` -> "(Author et al., 2021)"
+* `[@author1:2021; @author2:2001]` -> "(Author1 et al., 2021; Author2 et al., 2021)"
+
+This is an example citation [@author:2021].
 
 # Figures
 
 Figures can be included like this:
-![Caption for example figure.\label{fig:example}](https://github.com/Notebook-Factory/brand/blob/main/neurolibre-icon-red.png?raw=true) and referenced from text using \autoref{fig:example}.
+
+![Caption for example figure.\label{fig:example}](https://github.com/Notebook-Factory/brand/blob/main/neurolibre-icon-red.png?raw=true)
+
+You can reference figure from text using \autoref{fig:example}.
 
 Figure sizes can be customized by adding an optional second parameter:
+
 ![Caption for example figure.](https://github.com/Notebook-Factory/brand/blob/main/neurolibre-icon-red.png?raw=true){ width=20% }
 
 # Acknowledgements
