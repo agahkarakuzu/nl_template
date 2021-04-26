@@ -18,7 +18,7 @@ affiliations:
  - name: Montreal Heart Institute, University of Montréal, Montréal, Canada
    index: 2
 date: 26 March 2021
-bibliography: preprint.bib
+bibliography: paper.bib
 ---
 
 # Summary
@@ -58,18 +58,19 @@ For a quick reference, the following citation commands can be used:
 * `[@author:2021]` -> "(Author et al., 2021)"
 * `[@author1:2021; @author2:2001]` -> "(Author1 et al., 2021; Author2 et al., 2021)"
 
-This is an example citation [@ashburner:2012].
+This is an example citation [@neurolibre:2021].
+
 # Figures
 
 Figures can be included like this:
 
-![Caption for example figure.\label{fig:example}](https://github.com/Notebook-Factory/brand/blob/main/neurolibre-icon-red.png?raw=true)
+![Caption for example figure.\label{fig:example}](images/example_figure.png)
 
 You can reference figure from text using \autoref{fig:example}.
 
 Figure sizes can be customized by adding an optional second parameter:
 
-![Caption for example figure.](https://github.com/Notebook-Factory/brand/blob/main/neurolibre-icon-red.png?raw=true){ width=20% }
+![Caption for example figure.](images/example_figure.png){ width=20% }
 
 # Acknowledgements
 
